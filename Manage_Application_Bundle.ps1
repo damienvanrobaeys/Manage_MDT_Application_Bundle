@@ -25,7 +25,7 @@ Function Add-Dependency
 		write-host "Application $Get_App_Name has been added in $Get_Bundle_Name "
 	}
 	
-Add-Dependency -DeploymentShare	"D:\backup\DeploymentShare2" -App_Name "app2" -Bundle_Name "bundle"
+# Add-Dependency -DeploymentShare	"D:\backup\DeploymentShare2" -App_Name "app2" -Bundle_Name "bundle"
 	
 
 	
@@ -51,7 +51,7 @@ Function Remove-Dependency
 		write-host "Application $Get_App_Name has been removed from $Get_Bundle_Name "		
 	}	
 	
-Remove-Dependency -DeploymentShare "D:\backup\DeploymentShare2" -App_Name "app2" -Bundle_Name "bundle"
+# Remove-Dependency -DeploymentShare "D:\backup\DeploymentShare2" -App_Name "app2" -Bundle_Name "bundle"
 	
 	
 	
